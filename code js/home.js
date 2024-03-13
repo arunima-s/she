@@ -1,17 +1,13 @@
-// function menuToggle(){
-//     const toggleMenu =document.querySelector('.menu');
-//     toggleMenu.classList.toggle('active')
-// }
 
 
-// function menuToggle(){
-//     const toggleMenu = document.querySelector('.menu');
-//     toggleMenu.classList.toggle('active');
-// }
+function menuToggle(){
+    const toggleMenu = document.querySelector('.menu');
+    toggleMenu.classList.toggle('active');
+}
 
-// function hideMenu(){
-//     const toggleMenu = document.querySelector('.menu');
-//     toggleMenu.classList.remove('active')}
+function hideMenu(){
+    const toggleMenu = document.querySelector('.menu');
+    toggleMenu.classList.remove('active')}
 
 
     var swiper = new Swiper(".slide-content", {

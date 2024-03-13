@@ -40,7 +40,7 @@ nav{
     display: flex;
     align-items: baseline;
     justify-content: space-between ;
-    padding-top: 0px;
+    padding-top: 30px;
     padding-left: 10%;
     padding-right: 10%;
     background: rgb(255, 255, 255);
@@ -51,7 +51,8 @@ nav{
 .logo{
      width: 100px;
      /* margin-left: -100px; */
-     align-items: center;
+     left: 5px;
+     position: absolute;
      height: 100px;
      
     
@@ -63,6 +64,7 @@ nav ul li{
     list-style: none;
     display: inline-block;
     padding: 10px 15px;
+    padding-top: 34px;
 }
 nav ul li a{
     color: rgb(173, 44, 141);
@@ -91,6 +93,7 @@ nav ul li a{
     border-radius: 30px;
     border-top-right-radius: 0;
     transition: 0.5s;
+    cursor: pointer;
 
 
     
@@ -132,6 +135,8 @@ nav ul li a{
     margin-left: 202px;
 }
 .btn:hover{
+    background-image: linear-gradient(45deg,#ca366f,#a020b1);
+
     border-top-right-radius: 30px;
     transition: 0.5;
 }
@@ -203,8 +208,8 @@ nav ul li a{
 
 /* third page */
 .slide-container{
-    max-width: 1120px;
-    width: 100%;
+    max-width: 1320px;
+    /* width: 100%; */
     padding: 40px 0;
    
 
@@ -215,7 +220,7 @@ nav ul li a{
     margin: 122px 40px; 
     
     border-radius: 25px;
-    width: 28%;
+    width: 58%;
     height: 300px;
 }
 
@@ -223,6 +228,7 @@ nav ul li a{
     width: 320px;
     border-radius: 25px;
     background-color: #553b49;
+    width: 34vh;
 }
 
 .image-content,
@@ -306,10 +312,12 @@ nav ul li a{
 
 
 .swiper-navBtn{
-    color: rgb(193, 115, 209);
+    color: rgb(28, 17, 31);
     transition: color 0.3s ease;
 
 }
+
+
 .swiper-navBtn:hover{
     color: #df4881;
 }
@@ -364,29 +372,45 @@ fourth page  */
 
 
 
-
-
-
 .container-circle {
     display: flex;
     flex-direction: column; /* Change flex direction to column */
     justify-content: center;
     align-items: center;
 }
+
 .row-circle {
     display: flex;
     justify-content: center;
     margin-bottom: 20px; /* Adjust as needed */
-    
 }
+
 .circle {
     width: 150px; /* Diameter of the circle */
     height: 150px; /* Diameter of the circle */
     border-radius: 50%; /* Make it a circle */
     margin: 0 10px; /* Adjust spacing between circles */
-    background-size: cover;
-    background-position: center;
-   
+    overflow: hidden; /* Clip the image inside the circle */
+    border: 3px solid #963a96; /* Add border styling */
+    box-sizing: border-box; /* Include border in width/height calculation */
+    position: relative; /* Position text relative to the circle */
+    text-align: center; /* Center text horizontally */
+}
+
+.circle img {
+    width: 100%; /* Ensure the image covers the entire circle */
+    height: 100%; /* Ensure the image covers the entire circle */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire circle */
+    border-radius: 50%; /* Ensure the image remains circular */
+}
+
+.text {
+    position: absolute; /* Position the text relative to the circle */
+    bottom: 0; /* Align text to the bottom of the circle */
+    left: 0; /* Align text to the left of the circle */
+    width: 100%; /* Ensure text spans the entire circle width */
+    padding: 10px; /* Add padding for better readability */
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color for better readability */
 }
 
 
