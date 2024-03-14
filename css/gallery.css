@@ -26,7 +26,7 @@ h1::before{
     position: absolute;
     width: 100px;
     height: 3px;
-    background-color: bisque;
+    background-color:  rgb(177, 0, 68);
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -55,12 +55,13 @@ h1::before{
     box-shadow: 3px 3px 5px lightpink;
 
 }
-h3{
+p{
     height: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(250, 250, 250);
     line-height: 60px;
     padding: 0 50px;
-    color: white;
+    color: rgb(161, 161, 161);
+    font-style: italic;
 
 }
 label{
@@ -75,7 +76,7 @@ label{
 
 }
 label:hover{
-    color: lightsalmon;
+    color: rgb(255, 122, 173);
 
 }
 .photo-gallary{

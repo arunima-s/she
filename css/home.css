@@ -53,8 +53,8 @@ nav {
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+    width: 107px;
+    height: 111px;
     position: absolute;
     /* top: 50%; */
     transform: translateY(-50%);
@@ -99,7 +99,7 @@ nav ul li a{
     padding: 14px 40px;
     font-size: 14px;
     color: rgb(238, 219, 235);
-    background-image: linear-gradient(45deg,#df4881,#c430d7);
+    background-image: linear-gradient(45deg,#d08aa2,#b48cb9);
     border-radius: 30px;
     border-top-right-radius: 0;
     transition: 0.5s;
@@ -119,28 +119,48 @@ nav ul li a{
     /* max-width: 70%; */
     align-content: center;
     padding-left: 50px; /* Adjust the distance from the image */
+        
+    
 }
 
+.home h6{
+    background: #ddcccc;
+    text-align: center;
+    height: 50px;
+    padding-top: 12px;
+    font-style: bold;
+    
+}
 .content-head {
     /* margin-top: 6%; */
     max-width: 70%;
     /* align-content: center; */
-    padding-right: 10px;
+    padding-bottom: 0.5vh;
+    
+
 }
 
 .about-us {
-    max-width: 10px;
+    max-width: 1000px;
 }
 
 .content h1{
-    font-size: 70px;
-    color: #222;
+    font-size: 80px;
+    background-image: linear-gradient(45deg, #d08aa2, #474347);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;     /* color: transparent; */
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color:  #e2e2e2;
+    -webkit-text-size-adjust: 23px;
+    font-weight: bolder;
+    
 
 }
 .content h4{
     font-size: 23px;
-    color: #be3581;
-    text-align: center;
+    color: #1f1e1e;
+   padding-left: 134px;
+  
     
 }
 .content p{
@@ -151,7 +171,10 @@ nav ul li a{
 }
 
 .button-container {
-    text-align: center; /* Center the contents horizontally */
+    /* text-align: center; */
+     /* Center the contents horizontally */
+     padding-left: 35vh;
+     padding-bottom: 2vh;
 }
 
 .login-btn {
@@ -159,12 +182,13 @@ nav ul li a{
     padding: 14px 40px;
     font-size: 14px;
     color: rgb(238, 219, 235);
-    background-image: linear-gradient(45deg,#df4881,#c430d7);
+    background-image: linear-gradient(45deg,#a36a80,#da95b4);
     border-radius: 30px;
     border-top-right-radius: 0;
     transition: 0.5s;
     cursor: pointer;
     margin-top: 20px; /* Add some space between the button and the paragraph */
+    text-decoration: none;
 }
 
 
@@ -231,7 +255,7 @@ nav ul li a{
 
 /* second page */
 .Upcoming h1{
-    padding-top: 8vh;
+    padding-top: 15vh;
     padding-left: 34px;
 }
 
@@ -318,7 +342,7 @@ h1 .event{
 }
 .slide-content{
   
-    margin: 122px 392px; 
+    margin: 1px 392px; 
     
     border-radius: 25px;
     width: 70%;
@@ -349,7 +373,7 @@ h1 .event{
 
 .card-content .button {
     margin-top: 10px; /* Add spacing between description and button */
-    background-color: #be3581;
+    background-color: #b3b1b2;
     color: #fff; /* Change font color to white */
     border: none;
     padding: 8px 16px;
@@ -359,7 +383,7 @@ h1 .event{
 }
 
 .card-content .button:hover {
-    background: #dca3e4;
+    background: #d08aa2;
 }
 
 
@@ -377,7 +401,7 @@ h1 .event{
     top: 0;
     height: 66.67%; /* 2/3rd of the box height */
     width: 100%;
-    background-color: #cf388b;
+    background-color:#d1a9b7;
     border-radius: 25px 25px 0 25px;
     z-index: 0; /* Ensure the pink overlay is behind the image */
 }
@@ -431,7 +455,7 @@ h1 .event{
     font-size: 160x;
     color: #333;
     padding: 8px 16px;
-    background-color: #be3581;
+    background-color: #d08aa2;
     border-radius: 6px;
     margin: 14px;
     cursor: pointer;
@@ -530,7 +554,7 @@ fourth page  */
     border-radius: 50%; /* Make it a circle */
     margin: 0 10px; /* Adjust spacing between circles */
     overflow: hidden; /* Clip the image inside the circle */
-    border: 3px solid #963a96; /* Add border styling */
+    border: 1px solid #cfb3cf; /* Add border styling */
     box-sizing: border-box; /* Include border in width/height calculation */
     position: relative; /* Position text relative to the circle */
     text-align: center; /* Center text horizontally */
@@ -575,7 +599,7 @@ footer{
     
     position: relative;
     width: 100%;
-    background: #705869;
+    background-image: linear-gradient(45deg,#d08aa2,#ebe5e5);
     min-height: 100px;
     padding: 20px 50px;
     justify-content: center;
