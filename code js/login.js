@@ -15,3 +15,7 @@ sign_in_btn.addEventListener('click', ()=>{
 login_button.addEventListener("click", function() {
     window.location.href = "home.html";
 });
+
+document.querySelector("#sign-up").addEventListener("click", function() {
+    window.location.href = "home.html";
+});

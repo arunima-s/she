@@ -1,4 +1,4 @@
-
+const login_button = document.querySelector(".feature-img");
 
 function menuToggle(){
     const toggleMenu = document.querySelector('.menu');
@@ -55,3 +55,7 @@ function hideMenu(){
             });
         }
     }
+
+    login_button.addEventListener("click", function() {
+        window.location.href = "login.html";
+    });
