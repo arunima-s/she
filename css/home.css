@@ -108,14 +108,24 @@ nav ul li a{
      color: #a12268;
 }
 
-.content{
+.content {
     margin-top: 6%;
-    max-width: 600px;
-   align-content: center;
-  
-  padding-left: 280px;
-  
+    /* max-width: 70%; */
+    align-content: center;
+    padding-left: 50px; /* Adjust the distance from the image */
 }
+
+.content-head {
+    /* margin-top: 6%; */
+    max-width: 70%;
+    /* align-content: center; */
+    padding-right: 10px;
+}
+
+.about-us {
+    max-width: 10px;
+}
+
 .content h1{
     font-size: 70px;
     color: #222;
@@ -133,6 +143,25 @@ nav ul li a{
     text-align: justify; 
     
 }
+
+.button-container {
+    text-align: center; /* Center the contents horizontally */
+}
+
+.login-btn {
+    display: inline-block; /* Ensure the button takes only the necessary width */
+    padding: 14px 40px;
+    font-size: 14px;
+    color: rgb(238, 219, 235);
+    background-image: linear-gradient(45deg,#df4881,#c430d7);
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 20px; /* Add some space between the button and the paragraph */
+}
+
+
 .content .btn{
     padding: 15px 80px;
     font-size: 16px;
@@ -147,7 +176,7 @@ nav ul li a{
 .feature-img {
     position: absolute;
     top: 10px;
-    left: 55%; /* Set the left position to the center */
+    left: 50%; /* Set the left position to the center */
     transform: translateX(-50%); /* Translate the image back by half of its own width */
     width: 300vh; /* Ensure the image doesn't exceed the container's width */
 }
