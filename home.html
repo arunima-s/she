@@ -26,7 +26,7 @@
         </div>
            
            <ul>
-            <li><a href="#Home">Home</a></li>
+            <li><a href="#Home" onclick="smoothScroll('upcoming-events')">Home</a></li>
             <li><a href="#Gallery">Gallery</a></li>
             <li><a href="#Event">Event</a></li>
             <li><a href="#Contact Us">Contact us</a></li>
@@ -38,10 +38,10 @@
         </div>
         </nav>
        <div class="content">
-        <h1>Scheme For Her Empowerment</h1>
+        <h1 class="content-head">Scheme For Her Empowerment</h1>
         <br><br>
        
-        <h4>About us</h4>
+        <h4 class="about-us">About us</h4>
         <div class="para">
         <p>The program Scheme for Her Empowerment in Engineering education (SHE) is initiated at
             GECW which was the change project undertaken under AICTE- UKERI scheme. On
@@ -55,14 +55,16 @@
             the program are the teaching fraternity of GECW, resource persons from external agencies
             and experts from different walks of life.</p>
             <br>
-            <a href="login.html" class="btn">Join Now</a>
         </div>
+
        </div>
        <img src="assets/bg.png" class="feature-img">
 
     </div>
 
-
+    <div class="button-container">
+      <a href="login.html" class="login-btn">Join Now</a>
+  </div>
 
 
 
@@ -76,7 +78,7 @@
 
 
      <div class="Upcoming">
-     <h1 class="event">Upcoming Events</h1></div>
+     <h1 class="event" id = "upcoming-events">Upcoming Events</h1></div>
 
     <div class="container-box">
         <div class="box">
@@ -171,20 +173,20 @@
         <h1>Past Events</h1><br><br>
         <div class="card-wrapper swiper-wrapper" >
         
-          <div class="card swiper-slide">
-            <div class="image-content">
-              <span class="overlay">
-                <div class="card-image">
-                  <img src="assets/p1.jpg" alt="" class="card-img">
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay">
+                        <div class="card-image">
+                            <img src="assets/p1.jpg" alt="" class="card-img">
+                        </div>
+                    </span>
                 </div>
-              </span>
+                <div class="card-content">
+                    <h2 class="name">Event1</h2>
+                    <p class="description">something about the program details</p>
+                    <button class="button">View More</button>
+                </div>
             </div>
-            <div class="card-content">
-              <h2 class="name">Event1</h2>
-              <p class="description">something about the program details</p>
-              <button class="button">View More</button>
-            </div>   
-          </div>
 
 
           <div class="card swiper-slide">
