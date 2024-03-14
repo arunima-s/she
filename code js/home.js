@@ -41,3 +41,17 @@ function hideMenu(){
           
         } ,
       });
+
+      function smoothScroll(target) {
+        console.log("hbjhbjhbjhb")
+        var targetElement = document.getElementById(target);
+        if (targetElement) {
+            // Calculate the distance to scroll
+            var scrollTo = targetElement.offsetTop;
+            // Scroll smoothly to the target position
+            window.scrollTo({
+                top: scrollTo,
+                behavior: 'smooth'
+            });
+        }
+    }
